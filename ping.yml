@@ -1,0 +1,9 @@
+---
+- name: Simple ping, primarily for use with ansible-navigator
+  hosts: all
+  gather_facts: false
+
+  tasks:
+
+    - name: Ping
+      ping:
